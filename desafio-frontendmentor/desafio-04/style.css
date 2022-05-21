@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root {
+ --Soft-blue: hsl(215, 51%, 70%);
+ --Cyan: hsl(178, 100%, 50%);
+ --main-BG: hsl(217, 54%, 11%);
+ --card-BG: hsl(216, 50%, 16%);
+ --line: hsl(215, 32%, 27%);
+ --White: hsl(0, 0%, 100%);
+}
+
+
+body{
+    background-color: var(--main-BG);
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.card {
+    background-color: var(--card-BG);
+    width: 300px;
+    height: 540px;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.301);
+}
+
+.main-banner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 55%;
+    border-radius: 10px;
+}
+
+.main-banner img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main-banner .view {
+    padding: 150px;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    align-self: center;
+}
+
+.main-banner .view:hover {
+    background-image: url(images/icon-view.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: hsl(178, 100%, 50%, 50%);
+}
+
+main {
+    width: 100%;
+    height: 40%;
+}
+
+.main-content {
+    padding:15px 0;
+}
+
+.main-content .h1 {
+    color: var(--White);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.main-content .h1:hover {
+    color: var(--Cyan);
+}
+
+.main-content #p {
+    padding-top: 20px;
+    color: var(--Soft-blue);
+}
+
+.main-content ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content ul li {
+    display: flex;
+    padding-top: 25px;
+}
+
+.main-content ul #valor {
+    color: var(--Cyan);
+}
+
+.main-content ul #dia {
+    color: var(--Soft-blue);
+}
+
+.main-content ul li img {
+    padding-right: 5px;
+}
+
+.main-content hr {
+    margin-top: 25px;
+    border: 1px solid var(--line);
+}
+
+.autor img {
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.autor p {
+    margin-left: 15px;
+    color: var(--Soft-blue);
+}
+
+.autor a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: var(--White);
+
+}
+
+.autor a:hover {
+    color: var(--Cyan);
+}
