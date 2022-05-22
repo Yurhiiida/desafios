@@ -6,10 +6,8 @@ Usuário vai poder ver(Users should be able to):
 
 ### Links
 
-- Solution(Solução) URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL(Site): [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution(Solução) URL: (https://github.com/Yurhiiida/desafios/blob/main/desafio-frontendmentor/desafio-01/index.html)
+- Live Site URL(Site): (https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-01/index.html)
 
 ### Built with
 
