@@ -1,0 +1,157 @@
+@media (max-width:850px) {
+    .container {
+        max-width: 500px;
+        min-width: 315px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main ul {
+        flex-direction: column;
+    }
+
+    main ul li {
+        padding-top: 20px;
+    }
+
+    .banner {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .banner img {
+        border-radius: 10px 10px 0px 0px
+    }
+}
+
+@media (min-width:850px) {
+    aside {
+        height: 127px
+    }
+
+    .banner {
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .banner img {
+        border-radius: 0px 10px 10px 0px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+--main-background: hsl(233, 47%, 7%);
+--card-background: hsl(244, 38%, 16%);
+--accent: hsl(277, 64%, 61%);
+--main-heading-stats: hsl(0, 0%, 100%);
+--main-paragraph: hsla(0, 0%, 100%, 0.75);
+--stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+    background-color: var(--main-background);
+    font-size: 15px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    background-color: var(--card-background);
+    border-radius: 10px;
+}
+
+
+
+main {
+    max-width: 500px;
+    padding: 6%;
+}
+
+main h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+main h1 strong {
+    color: var(--accent);
+}
+
+main .paragraph {
+    color: var(--stat-headings);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 1.6em;
+}
+
+aside {
+    display: flex;
+    align-items: flex-end
+}
+
+aside ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+aside ul li {
+    list-style-type: none;
+}
+
+aside ul li h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: var(--main-heading-stats);
+    text-transform: uppercase;
+}
+
+aside ul li p {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    color: var(--stat-headings);
+} 
+
+.banner {
+    background-color: var(--accent);
+    flex-shrink: 0;
+    max-width: 500px;
+    opacity: 1;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--stat-headings);
+}
+    
+.attribution a {
+    color: var(--accent); 
+}
