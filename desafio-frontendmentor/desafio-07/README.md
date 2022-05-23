@@ -6,8 +6,8 @@ Usuário vai poder ver(Users should be able to):
 
 ### Links
 
-- Solution(Solução) URL: (https://github.com/Yurhiiida/desafios/tree/main/desafio-frontendmentor/desafio-06)
-- Live Site URL(Site): (https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-06/index.html)
+- Solution(Solução) URL: (https://github.com/Yurhiiida/desafios/tree/main/desafio-frontendmentor/desafio-07)
+- Live Site URL(Site): (https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-07/index.html)
 
 ### Built with
 
