@@ -1,4 +1,8 @@
 @media (max-width:850px) {
+    body {
+        padding: 30px;
+    }
+
     .container {
         max-width: 500px;
         min-width: 315px;
