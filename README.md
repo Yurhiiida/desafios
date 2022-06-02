@@ -1,21 +1,25 @@
-# Desafios
-desafios para aprimorar conhecimento
+<h1 color='red'>Desafios</h1>
+<p>desafios para aprimorar conhecimento</p>
 
-Projeto Android:
-https://yurhiiida.github.io/desafios/desafio-projeto-android/index.html
+<ol>
+  <li>Projeto Android:
+      https://yurhiiida.github.io/desafios/desafio-projeto-android/index.html</li>
 
-Projeto Parallax:
-https://yurhiiida.github.io/desafios/desafio-parallax/index.html
+  <li>Projeto Parallax:
+      https://yurhiiida.github.io/desafios/desafio-parallax/index.html</li>
 
-Projeto Cordel:
-https://yurhiiida.github.io/desafios/desafio-projeto-cordel/index.html
+  <li>Projeto Cordel:
+      https://yurhiiida.github.io/desafios/desafio-projeto-cordel/index.html</li>
+</ol>
 
-Desafios do Frontend Mentor
+<h1>Desafios do Frontend Mentor</h1>
 
-https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-01/index.html
-https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-02/index.html
-https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-03/index.html
-https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-04/index.html
-https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-05/index.html
-https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-06/index.html
-https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-07/index.html
+<ol>
+<li>https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-01/index.html</li>
+<li>https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-02/index.html</li>
+<li>https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-03/index.html</li>
+<li>https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-04/index.html</li>
+<li>https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-05/index.html</li>
+<li>https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-06/index.html</li>
+<li>https://yurhiiida.github.io/desafios/desafio-frontendmentor/desafio-07/index.html</li>
+</ol>
