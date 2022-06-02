@@ -1,4 +1,9 @@
-<h1 color='red'>Desafios</h1>
+<style>
+  h1 {
+    color: red;
+  }
+</style>
+<h1>Desafios</h1>
 <p>desafios para aprimorar conhecimento</p>
 
 <ol>
